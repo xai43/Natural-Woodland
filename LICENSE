@@ -1,5 +1,5 @@
-License Overview
-Assets License (All Rights Reserved)
+# License Overview
+## Assets License (All Rights Reserved)
 
 All Rights Reserved Copyright (c) Takhr
 
@@ -7,7 +7,7 @@ This license applies to any files under the following directories:
 
     ./common/src/main/resources/assets/naturalwoodland
 
-Code License (MIT)
+## Code License (MIT)
 
 All other files are licensed under the MIT License:
 
