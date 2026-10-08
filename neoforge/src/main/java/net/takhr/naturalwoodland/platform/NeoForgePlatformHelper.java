@@ -1,6 +1,6 @@
-package net.takhr.examplemod.platform;
+package net.takhr.naturalwoodland.platform;
 
-import net.takhr.examplemod.platform.services.IPlatformHelper;
+import net.takhr.naturalwoodland.platform.services.IPlatformHelper;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLLoader;
 

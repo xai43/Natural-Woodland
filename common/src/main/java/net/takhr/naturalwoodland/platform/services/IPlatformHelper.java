@@ -1,4 +1,4 @@
-package net.takhr.examplemod.platform.services;
+package net.takhr.naturalwoodland.platform.services;
 
 public interface IPlatformHelper {
 

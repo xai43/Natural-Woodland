@@ -1,8 +1,8 @@
-package net.takhr.examplemod;
+package net.takhr.naturalwoodland;
 
 import net.fabricmc.api.ModInitializer;
 
-public class FabricExampleMod implements ModInitializer {
+public class FabricNaturalWoodland implements ModInitializer {
     
     @Override
     public void onInitialize() {
@@ -12,6 +12,6 @@ public class FabricExampleMod implements ModInitializer {
         // как код Fabric, так и общий код (Common).
 
         // Используйте Fabric для инициализации общего мода (Common mod).
-        CommonExampleMod.init();
+        NaturalWoodland.init();
     }
 }

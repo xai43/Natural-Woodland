@@ -1,18 +1,20 @@
-package net.takhr.examplemod;
+package net.takhr.naturalwoodland;
 
-import net.takhr.examplemod.platform.Services;
+import net.takhr.naturalwoodland.platform.Services;
 
 // Этот класс является частью общего проекта, то есть используется всеми поддерживаемыми загрузчиками. Код здесь может
 // импортировать и использовать только ванильную кодовую базу, библиотеки, применяемые в ванильной версии, а также — при необходимости — сторонние библиотеки,
 // предоставляющие общие совместимые бинарные файлы. Это означает, что общий код не может напрямую использовать специфичные для загрузчика концепции (например, события NeoForge),
 // однако он будет совместим со всеми поддерживаемыми загрузчиками модов.
-public class CommonExampleMod {
+public class NaturalWoodland {
+
+    public static final String MOD_ID = "naturalwoodland";
 
     // Проекты, специфичные для конкретного загрузчика, могут импортировать и использовать любой код из общего проекта. Это позволяет
     // писать большую часть кода здесь и загружать его из проектов, специфичных для загрузчика.
     public static void init() {
 
-        if (Services.PLATFORM.isModLoaded("examplemod")) {
+        if (Services.PLATFORM.isModLoaded("naturalwoodland")) {
 
         }
     }
